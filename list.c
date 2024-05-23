@@ -4,7 +4,7 @@
 
 
 List *create_list(int value, List *next){
-    List* liste = (List*)malloc(sizeof(List*));
+    List* liste = (List*)malloc(sizeof(List));
     liste->value = value;
     liste->next = next;
     return liste;
